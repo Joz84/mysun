@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Cercle</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .button {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .vignette {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: #e74c3c;
+            border-radius: 50%;
+            opacity: 0;
+            transform: scale(0);
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+        .vignette:hover {
+            transform: scale(1.5) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button" onclick="showVignettes()"></button>
+        <div class="vignette"></div>
+        <div class="vignette"></div>
+        <div class="vignette"></div>
+        <div class="vignette"></div>
+        <div class="vignette"></div>
+        <div class="vignette"></div>
+    </div>
+
+    <script>
+        function showVignettes() {
+            const vignettes = document.querySelectorAll('.vignette');
+            const containerSize = 200;
+            const radius = containerSize / 2 - 30;
+            
+            vignettes.forEach((vignette, index) => {
+                const angle = (index * 60) * (Math.PI / 180);
+                const x = Math.cos(angle) * radius + containerSize / 2 - 20;
+                const y = Math.sin(angle) * radius + containerSize / 2 - 20;
+                
+                setTimeout(() => {
+                    vignette.style.left = `${x}px`;
+                    vignette.style.top = `${y}px`;
+                    vignette.style.opacity = 1;
+                    vignette.style.transform = 'scale(1)';
+                }, index * 200);
+            });
+        }
+    </script>
+</body>
+</html>
