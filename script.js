@@ -41,7 +41,7 @@ function showVignettes() {
   avatar.classList.add(phototypes[phototype]);
   avatar.querySelector('.avatar-body').src = `data/avatars/${sexs[sex]}-${ages[age]}.png`;
 
-  fetch('flags.json')
+  fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.json')
   .then(response => response.json()) 
   .then(data => {
     console.log(data);
