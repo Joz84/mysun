@@ -1,0 +1,34 @@
+.phototype {
+  cursor: pointer;
+  border: 3px solid lightgray;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+
+}
+.phototype.selected {
+  border: 3px solid black;
+}
+
+.flag {
+  top: 29%; 
+  left: 54%; 
+  width: 12%;
+}
+
+.bg-I-II {
+  background: linear-gradient(to right, #f4d4a4, #e4b678);
+  background-size: cover;
+}
+.bg-III-IV {
+  background: linear-gradient(to right, #d29952, #a97c50);
+  background-size: cover;
+}
+.bg-V-VI {
+  background: linear-gradient(to right, #704830, #3b2a1a);
+  background-size: cover;
+}
