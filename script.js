@@ -18,17 +18,29 @@ function showVignettes() {
   const selectBox = document.querySelector('.select-box');
   const country = selectBox.querySelector('.selected-text').textContent.trim();
 
-  const age = document.getElementById('ageInput').value.trim();
+  const age = Number(document.getElementById('ageInput').value.trim());
+  
+  let ageSlot = null
+  if (age >= 60) {
+    ageSlot = "70";
+  } else if (age >= 40) {
+    ageSlot = "50";
+  } else if (age >= 20) {
+    ageSlot = "30";
+  } else if (age >= 0) {
+    ageSlot = "15";
+  }
+  
   const sex = document.getElementById('sexInput').value.trim(); 
   const phototype = document.querySelector('.phototype.selected')?.textContent.trim() || "Non spécifié";
-  const infoText = `Pays: ${country}\nÂge: ${age}\nSexe: ${sex}\nPhototype: ${phototype}`;
+  const infoText = `Pays: ${country}\nÂge: ${ageSlot}\nSexe: ${sex}\nPhototype: ${phototype}`;
   
   avatar.classList.remove("d-none");
   avatar.classList.remove("bg-I-II");
   avatar.classList.remove("bg-III-IV");
   avatar.classList.remove("bg-V-VI");
   avatar.classList.add(phototypes[phototype]);
-  avatar.querySelector('.avatar-body').src = `data/avatars/${sex}-${age}.png`;
+  avatar.querySelector('.avatar-body').src = `data/avatars/${sex}-${ageSlot}.png`;
 
   fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.json')
   .then(response => response.json()) 
@@ -53,26 +65,52 @@ function selectPhototype(element) {
 }
 
 ////////////// AGE ////////////// 
-// Fonction pour sélectionner la tranche d'âge
-function selectAge(card, age) {
-  let cards = document.querySelectorAll('.card');
-  cards.forEach(c => {
-    c.classList.remove('selected');
-  });
-  card.classList.add('selected');
-  document.getElementById('ageInput').value = age;
-}
+
 
 ////////////// GENRE ////////////// 
 // Fonction pour sélectionner le sexe
 function selectSex(card, sex) {
-  let cards = document.querySelectorAll('.card');
+  let cards = document.querySelectorAll('.sex-card');
   cards.forEach(c => {
     c.classList.remove('selected');
   });
   card.classList.add('selected');
   document.getElementById('sexInput').value = sex;
 }
+
+////////////// EXPOSITION ////////////// 
+// Fonction pour sélectionner l'exposition
+function selectExpo(card, expo) {
+  let cards = document.querySelectorAll('.expo-card');
+  cards.forEach(c => {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
+  document.getElementById('expoInput').value = expo;
+}
+
+////////////// PROTECTION ////////////// 
+// Fonction pour sélectionner le sexe
+function selectProtect(card, protect) {
+  let cards = document.querySelectorAll('.protect-card');
+  cards.forEach(c => {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
+  document.getElementById('protectInput').value = protect;
+}
+
+////////////// Two Hours ////////////// 
+// Fonction pour sélectionner le sexe
+function selectTwoHours(card, twoHours) {
+  let cards = document.querySelectorAll('.two-hours-card');
+  cards.forEach(c => {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
+  document.getElementById('twoHoursInput').value = twoHours;
+}
+
 
 ////////////// PAYS ////////////// 
 // Générer le menu déroulant des pays avec les drapeaux

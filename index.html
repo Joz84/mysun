@@ -24,7 +24,7 @@
             <div class="row">
               <!-- Homme -->
               <div class="col-12 col-md-4 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectSex(this, 'male')">
+                <div class="sex-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectSex(this, 'male')">
                   <div class="card-body text-center">
                     <h6 class="mb-0">Homme</h6>
                   </div>
@@ -33,7 +33,7 @@
               
               <!-- Femme -->
               <div class="col-12 col-md-4 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectSex(this, 'female')">
+                <div class="sex-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectSex(this, 'female')">
                   <div class="card-body text-center">
                     <h6 class="mb-0">Femme</h6>
                   </div>
@@ -42,7 +42,7 @@
               
               <!-- Autre -->
               <div class="col-12 col-md-4 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectSex(this, 'female')">
+                <div class="sex-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectSex(this, 'female')">
                   <div class="card-body text-center">
                     <h6 class="mb-0">Autre</h6>
                   </div>
@@ -55,53 +55,14 @@
           </div>
 
           <!-- Age -->
-          <div class="container-fluid">
-            <h5>Mon âge est compris entre :</h5>
-            <div class="row">
-              <!-- 0-20 ans -->
-              <div class="col-12 col-md-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectAge(this, '15')">
-                  <div class="card-body text-center">
-                    <h6 class="card-title">0-20 ans</h6>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- 20-40 ans -->
-              <div class="col-12 col-md-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectAge(this, '30')">
-                  <div class="card-body text-center">
-                    <h6 class="card-title">20-40 ans</h6>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- 40-60 ans -->
-              <div class="col-12 col-md-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectAge(this, '50')">
-                  <div class="card-body text-center">
-                    <h6 class="card-title">40-60 ans</h6>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- 60+ ans -->
-              <div class="col-12 col-md-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectAge(this, '70')">
-                  <div class="card-body text-center">
-                    <h6 class="card-title">60+ ans</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-        
-            <!-- Champ caché pour la tranche d'âge sélectionnée -->
-            <input type="hidden" id="ageInput" name="age" value="">
+          <div class="container-fluid mb-3">
+            <h5>Mon âge est :</h5>
+            <input type="number" id="ageInput" name="age" placeholder="Entrez votre âge exact" required>
           </div>
 
           <!-- Pays -->
           <div class="container-fluid mb-3">
-            <h5>Ma nationnalité est :</h5>
+            <h5>Je vis en :</h5>
             <div class="custom-select">
               <div class="select-box" onclick="toggleOptions()">
                 <span class="selected-text">Choisir un pays</span>
@@ -137,7 +98,7 @@
             <div class="row">
               <!-- Oui -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectExpo(this, true)">
+                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, true)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">OUI</h6>
                   </div>
@@ -146,7 +107,7 @@
               
               <!-- Non -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectExpo(this, false)">
+                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, false)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">NON</h6>
                   </div>
@@ -163,7 +124,7 @@
             <div class="row">
               <!-- Oui -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectProtect(this, true)">
+                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, true)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">OUI</h6>
                   </div>
@@ -172,7 +133,7 @@
               
               <!-- Non -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectProtect(this, false)">
+                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, false)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">NON</h6>
                   </div>
@@ -189,7 +150,7 @@
             <div class="row">
               <!-- Oui -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, true)">
+                <div class="two-hours-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, true)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">OUI</h6>
                   </div>
@@ -198,7 +159,7 @@
               
               <!-- Non -->
               <div class="col-6 mb-3">
-                <div class="card border-primary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, false)">
+                <div class="two-hours-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, false)">
                   <div class="card-body text-center">
                     <h6 class="mb-0">NON</h6>
                   </div>
@@ -210,7 +171,7 @@
           </div>            
 
           <div class="container-fluid">
-            <button type="submit" class="btn btn-primary w-100 py-3">Soumettre</button>
+            <button type="submit" class="btn bg-mysun w-100 py-3">Soumettre</button>
           </div>
           </form>
 

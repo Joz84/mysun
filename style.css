@@ -10,8 +10,29 @@
   text-shadow: 2px 2px 2px grey;
 
 }
+
+.phototype:hover, .card:hover {
+  border: 1px solid #F2765E !important;
+}
+
+.card.selected, .card:hover{
+  color: #F2765E !important;
+}
+
 .phototype.selected, .card.selected {
-  border: 3px solid black;
+  border: 3px solid #F2765E !important;
+}
+
+
+.bg-mysun {
+  background: #F2765E;
+  color: white;
+}
+
+.bg-mysun:hover {
+  background: white;
+  color: #F2765E;
+  border-color: #F2765E;
 }
 
 .flag {
@@ -52,6 +73,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  border-radius: 5px;
 }
 
 .select-box .selected-text {
@@ -81,10 +103,18 @@
   background-color: #f1f1f1;
 }
 
-.search-input {
+#ageInput, .search-input {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
+  padding: 10px;
   border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#ageInput {
+  border-radius: 5px;
+}
+
+
+.search-input {
   display: none; /* Masqué par défaut */
 }
