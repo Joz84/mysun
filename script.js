@@ -12,25 +12,14 @@ function showVignettes() {
     "V & VI": "bg-V-VI"
   }
 
-  const ages = {
-    "0-20 ans": "15",
-    "20-40 ans": "30",
-    "40-60 ans": "50",
-    "60+ ans": "70"
-  }
-
-  const sexs = {
-    "Homme": "male",
-    "Femme": "female",
-    "Autre": "female",
-  }
-
-
   const vignettes = document.querySelectorAll('.vignette');
   const avatar = document.getElementById("avatar");
-  const country = document.getElementById("country").value.trim();
-  const age = document.getElementById("age").value.trim();
-  const sex = document.querySelector('input[name="sex"]:checked')?.value.trim() || "Non spécifié";
+
+  const selectBox = document.querySelector('.select-box');
+  const country = selectBox.querySelector('.selected-text').textContent.trim();
+
+  const age = document.getElementById('ageInput').value.trim();
+  const sex = document.getElementById('sexInput').value.trim(); 
   const phototype = document.querySelector('.phototype.selected')?.textContent.trim() || "Non spécifié";
   const infoText = `Pays: ${country}\nÂge: ${age}\nSexe: ${sex}\nPhototype: ${phototype}`;
   
@@ -39,13 +28,12 @@ function showVignettes() {
   avatar.classList.remove("bg-III-IV");
   avatar.classList.remove("bg-V-VI");
   avatar.classList.add(phototypes[phototype]);
-  avatar.querySelector('.avatar-body').src = `data/avatars/${sexs[sex]}-${ages[age]}.png`;
+  avatar.querySelector('.avatar-body').src = `data/avatars/${sex}-${age}.png`;
 
   fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.json')
   .then(response => response.json()) 
   .then(data => {
-    console.log(data);
-    avatar.querySelector('.avatar-flag').src = `"https://www.countryflags.com/wp-content/uploads/${data["countries"][country]}-flag-png-large.png"`;
+    avatar.querySelector('.avatar-flag').src = `https://www.countryflags.com/wp-content/uploads/${data["countries"][country]}-flag-png-large.png`;
   })
   .catch(error => console.error('Erreur lors du chargement du JSON:', error));
 
@@ -62,4 +50,84 @@ function showVignettes() {
 function selectPhototype(element) {
   document.querySelectorAll('.phototype').forEach(pt => pt.classList.remove('selected'));
   element.classList.add('selected');
+}
+
+////////////// AGE ////////////// 
+// Fonction pour sélectionner la tranche d'âge
+function selectAge(card, age) {
+  let cards = document.querySelectorAll('.card');
+  cards.forEach(c => {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
+  document.getElementById('ageInput').value = age;
+}
+
+////////////// GENRE ////////////// 
+// Fonction pour sélectionner le sexe
+function selectSex(card, sex) {
+  let cards = document.querySelectorAll('.card');
+  cards.forEach(c => {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
+  document.getElementById('sexInput').value = sex;
+}
+
+////////////// PAYS ////////////// 
+// Générer le menu déroulant des pays avec les drapeaux
+fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.json')
+.then(response => response.json()) 
+.then(data => {
+  const countriesDropdown = document.getElementById('countriesDropdown');
+  for (const [country, flagUrl] of Object.entries(data["countries"])) {
+    const optionDiv = document.createElement('div');
+    optionDiv.classList.add('option');
+    optionDiv.setAttribute('data-country', country);
+  
+    // Ajouter l'image du drapeau et le nom du pays
+    optionDiv.innerHTML = `<img src="https://www.countryflags.com/wp-content/uploads/${flagUrl}-flag-png-large.png" alt="${country}" class="flag-icon"> ${country}`;
+    
+    // Ajouter un événement pour la sélection
+    optionDiv.onclick = function() {
+      selectCountry(country, flagUrl);
+    };
+    countriesDropdown.appendChild(optionDiv);
+  }
+})
+.catch(error => console.error('Erreur lors du chargement du JSON:', error));
+
+
+
+
+
+// Fonction pour afficher/masquer les options du menu déroulant
+function toggleOptions() {
+  const options = document.getElementById('countriesDropdown');
+  options.style.display = options.style.display === 'block' ? 'none' : 'block';
+  // Lorsque le menu est affiché, montrer la barre de recherche
+  document.getElementById('searchInput').style.display = 'block';
+}
+
+// Fonction pour sélectionner un pays
+function selectCountry(country, flagUrl) {
+  const selectBox = document.querySelector('.select-box');
+  selectBox.querySelector('.selected-text').textContent = country;
+  toggleOptions(); // Fermer la liste des options et la recherche
+  document.getElementById('searchInput').style.display = 'none'; // Masquer la barre de recherche
+}
+
+// Fonction pour filtrer les pays en fonction de la recherche
+function filterCountries() {
+  const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+  const options = document.querySelectorAll('.option');
+  
+  options.forEach(option => {
+    const countryName = option.textContent.toLowerCase();
+    if (countryName.indexOf(searchQuery) !== -1) {
+      option.style.display = 'flex'; // Afficher l'option
+    } else {
+      option.style.display = 'none'; // Cacher l'option
+    }
+  });
 }

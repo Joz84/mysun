@@ -10,7 +10,7 @@
   text-shadow: 2px 2px 2px grey;
 
 }
-.phototype.selected {
+.phototype.selected, .card.selected {
   border: 3px solid black;
 }
 
@@ -18,6 +18,12 @@
   top: 29%; 
   left: 54%; 
   width: 12%;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 14px;
+  margin-right: 8px;
 }
 
 .bg-I-II {
@@ -31,4 +37,54 @@
 .bg-V-VI {
   background: linear-gradient(to right, #704830, #3b2a1a);
   background-size: cover;
+}
+
+/* Style pour le menu déroulant personnalisé */
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.select-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.select-box .selected-text {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.options-container {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+  display: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.option {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f1f1f1;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  display: none; /* Masqué par défaut */
 }
