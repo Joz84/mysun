@@ -1,9 +1,12 @@
 const infoText1 = (expo_percent, protect_percent) => {
+  console.log("--------------------");
+  console.log(expo_percent, protect_percent);
+  console.log("--------------------");
   return `
   <h5>1. Aujourd’hui</h5>
-  <p>${expo_percent}% des personnes qui ont le même profil que moi s’exposent au soleil aux heures les plus
+  <p><b>${expo_percent.toFixed(2)}%</b> des personnes qui ont le même profil que moi s’exposent au soleil aux heures les plus
   chaudes de la journée.<br>
-  ${protect_percent}% réappliquent un produit solaire toutes les 2 heures</p>
+  <b>${protect_percent.toFixed(2)}%</b> réappliquent un produit solaire toutes les 2 heures</p>
   <small><i>Etude ALL partie solaires Pierre Fabre 50 000 répondants de 20 pays
   (donner résultat du pays quand dispo dans la liste, moyenne si pays hors liste).</i></small>
 `};
@@ -11,7 +14,7 @@ const infoText1 = (expo_percent, protect_percent) => {
 const infoText2 = (sun_percent) => {
   return `
   <h5>2. Et demain ?</h5>
-  <p>Dans mon pays, dans 15 ans, je recevrai ${sun_percent}% de soleil en plus</p>
+  <p>Dans mon pays, dans 15 ans, je recevrai <b>${sun_percent.toFixed(2)}%</b> de soleil en plus</p>
   <small><i>Estimation basée sur calcul évolution couche d’ozone, concentration vapeur d’eau… source
   GIEC Intergovernmental Panel on Climate Change 2022.</i></small>
 `};
@@ -19,8 +22,8 @@ const infoText2 = (sun_percent) => {
 const infoText3 = (photoaging_percent, photoaging_delta) => {
   return `
   <h5>3. Combien d'année en plus pour ma peau ?</h5>
-  <p>Cet ensoleillement peut déclencher ${photoaging_percent}% d’accentuation du vieillissement de ma peau</p>
-  <p>Soit ${photoaging_delta} années en plus pour ma peau</p> 
+  <p>Cet ensoleillement peut déclencher <b>${photoaging_percent.toFixed(2)}%</b> d’accentuation du vieillissement de ma peau</p>
+  <p>Soit <b>${photoaging_delta.toFixed(2)}</b> années en plus pour ma peau</p> 
   <small><i>Basé sur l’estimation de l’augmentation du taux d’UV et de lumière bleue et sur la
   façon dont je me protège actuellement.<br>
   Le % d’accentuation correspond à l’augmentation du vieillissement de la peau lié à
@@ -31,7 +34,7 @@ const infoText3 = (photoaging_percent, photoaging_delta) => {
 const infoText4 = (cancer_percent) => {
   return `
   <h5>4. Et le cancer de la peau dans tout ça ?</h5>
-  <p>Le risque de développer un cancer cutané pour les personnes qui ont le même profil que moi aura augmenté de ${cancer_percent}%</p>
+  <p>Le risque de développer un cancer cutané pour les personnes qui ont le même profil que moi aura augmenté de <b>${cancer_percent.toFixed(2)}%</b></p>
   <small><i>Cf data source globocan.</i></small>
 `};
 
@@ -43,7 +46,7 @@ const recosText5 = (photoaging_percent) => {
   } else {
     return `Je m’expose moins, j’applique une crème solaire lorsque je suis exposé et je la réapplique
     toutes les 2 heures : 
-    je le réduis de ${photoaging_percent}%`
+    je le réduis de <b>${photoaging_percent.toFixed(2)}%</b>`
   }
 }
 
@@ -89,7 +92,7 @@ const ageGroup = (age) => {
 }
 
 const generateAvatar = (persona) => {
-  const phototype = persona["phototype"];
+  const phototype = persona["type"];
   const sex = persona["sex"];
   const age_group = persona["age_group"];
   const country = persona["country"];
@@ -97,7 +100,7 @@ const generateAvatar = (persona) => {
   avatar.classList.remove("d-none");
   Object.values(avatarBgCls).forEach(cls => avatar.classList.remove(cls));
   avatar.classList.add(avatarBgCls[phototype]);
-  avatar.querySelector('.avatar-body').src = `data/avatars/${sex}-${age_group}.png`;
+  avatar.querySelector('.avatar-body').src = `https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/data/avatars/${sex}-${age_group}.png`;
 
   fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.json')
   .then(response => response.json()) 
@@ -131,15 +134,18 @@ function showVignettes() {
   persona["country"] = document.querySelector('.select-box > .selected-text').textContent.trim();
   persona["age"] = Number(document.getElementById('ageInput').value.trim());
   persona["sex"] = document.getElementById('sexInput').value.trim(); 
-  persona["phototype"] = phototypes[document.querySelector('.phototype.selected')?.textContent.trim()];
+  persona["type"] = phototypes[document.querySelector('.phototype.selected')?.textContent.trim()];
   persona["expo"] = Number(document.getElementById('expoInput').value.trim());
   persona["protect"] = Number(document.getElementById('protectInput').value.trim());
   persona["age_group"] = ageGroup(persona["age"]);
 
   console.dir(persona);
   generateAvatar(persona);
-  const simulation = simulator(persona);
-  generateVignettes(persona, simulation);
+  (async () => {
+    const simulation = await simulator(persona);
+    console.dir(simulation);
+    generateVignettes(persona, simulation);
+  })();
 }
 
 
