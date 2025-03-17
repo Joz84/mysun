@@ -10,7 +10,7 @@ fetch('https://raw.githubusercontent.com/Joz84/mysun/refs/heads/master/flags.jso
     optionDiv.setAttribute('data-country', country);
   
     // Ajouter l'image du drapeau et le nom du pays
-    optionDiv.innerHTML = `<img src="https://www.countryflags.com/wp-content/uploads/${flagUrl}-flag-png-large.png" alt="${country}" class="flag-icon"> ${country}`;
+    optionDiv.innerHTML = `<img src="https://www.countryflags.com/wp-content/uploads/${flagUrl}" alt="${country}" class="flag-icon"> ${country}`;
     
     // Ajouter un événement pour la sélection
     optionDiv.onclick = function() {

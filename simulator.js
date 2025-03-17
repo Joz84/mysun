@@ -1,17 +1,10 @@
 const simulator = (persona) => {
-  const expo_percent = 10;
-  const protect_percent = 10;
-  const sun_percent = 10;
-  const photoaging_percent = 10;
-  const cancer_percent = 10;
-  const best_percent = 10;
-
-  return {
-    "expo_percent": expo_percent,
-    "protect_percent": protect_percent,
-    "sun_percent": sun_percent,
-    "photoaging_percent": photoaging_percent,
-    "cancer_percent": cancer_percent,
-    "best_percent": best_percent
+  return{ 
+    "expo_percent": 10.0, 
+    "protect_percent": 50.0, 
+    "sun_percent": 20.0, 
+    "photoaging_percent": 76.40246844149928, 
+    "photoaging_delta": 7.640246844149928, 
+    "cancer_percent": 25.0
   }
 };

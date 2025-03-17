@@ -20,6 +20,7 @@ function selectSex(card, sex) {
 ////////////// EXPOSITION ////////////// 
 // Fonction pour sélectionner l'exposition
 function selectExpo(card, expo) {
+  console.log(expo);
   let cards = document.querySelectorAll('.expo-card');
   cards.forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');

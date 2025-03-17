@@ -46,7 +46,7 @@
               
               <!-- Autre -->
               <div class="col-12 col-md-4 mb-3">
-                <div class="sex-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectSex(this, 'female')">
+                <div class="sex-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectSex(this, 'both_sexe')">
                   <div class="card-body text-center">
                     <h6 class="mb-0">Autre</h6>
                   </div>
@@ -55,7 +55,7 @@
             </div>
         
             <!-- Champ caché pour le sex sélectionné -->
-            <input type="hidden" id="sexInput" name="sex" value="">
+            <input type="hidden" id="sexInput" name="sex" value="" required>
           </div>
 
           <!-- Age -->
@@ -89,7 +89,6 @@
                 <div>I & II</div>
               </div>
 
-
               <div class="phototype bg-III-IV d-flex justify-content-center align-items-center" onclick="selectPhototype(this)">
                 <div>III & IV</div>
               </div>
@@ -101,28 +100,37 @@
 
           <!-- Exposition -->
           <div class="container-fluid">
-            <h5>Je m’expose au soleil ou je suis en extérieur en général plus de 4 heures par jour :</h5>
+            <h5>Je passé plus de 4h par jour à l'extérieur pour des activités professionnelles ou récréatives :</h5>
             <div class="row">
-              <!-- Oui -->
-              <div class="col-6 mb-3">
-                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, false)">
+              <!-- NON -->
+              <div class="col-4 mb-3">
+                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, 1)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">OUI</h6>
+                    <h6 class="mb-0">Non</h6>
                   </div>
                 </div>
               </div>
-              
-              <!-- Non -->
-              <div class="col-6 mb-3">
-                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, true)">
+
+              <!-- Occasionnellement -->
+              <div class="col-4 mb-3">
+                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, 2)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">NON</h6>
+                    <h6 class="mb-0">À l'occasion</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Régulièrement -->
+              <div class="col-4 mb-3">
+                <div class="expo-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectExpo(this, 3)">
+                  <div class="card-body text-center">
+                    <h6 class="mb-0">Régulièrement</h6>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Champ caché pour l'exposition sélectionnée -->
-            <input type="hidden" id="expoInput" name="expo" value="">
+            <input type="hidden" id="expoInput" name="expo" value="" required>
           </div>
 
           <!-- Protection -->
@@ -131,24 +139,24 @@
             <div class="row">
               <!-- Oui -->
               <div class="col-6 mb-3">
-                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, true)">
+                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, 1)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">OUI</h6>
+                    <h6 class="mb-0">Oui</h6>
                   </div>
                 </div>
               </div>
               
               <!-- Non -->
               <div class="col-6 mb-3">
-                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, false)">
+                <div class="protect-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectProtect(this, 2)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">NON</h6>
+                    <h6 class="mb-0">Non</h6>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Champ caché pour l'exposition sélectionnée -->
-            <input type="hidden" id="protectInput" name="protect" value="">
+            <input type="hidden" id="protectInput" name="protect" value="" required>
           </div>          
 
           <!-- Two hours -->
@@ -159,7 +167,7 @@
               <div class="col-6 mb-3">
                 <div class="two-hours-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, true)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">OUI</h6>
+                    <h6 class="mb-0">Oui</h6>
                   </div>
                 </div>
               </div>
@@ -168,13 +176,13 @@
               <div class="col-6 mb-3">
                 <div class="two-hours-card card border-body-tertiary h-100" style="cursor: pointer;" onclick="selectTwoHours(this, false)">
                   <div class="card-body text-center">
-                    <h6 class="mb-0">NON</h6>
+                    <h6 class="mb-0">Non</h6>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Champ caché pour reaplication sélectionnée -->
-            <input type="hidden" id="twoHoursInput" name="protect" value="">
+            <input type="hidden" id="twoHoursInput" name="protect" value="" required>
           </div>            
 
           <div class="container-fluid">
@@ -186,7 +194,7 @@
       <div class="col-md-2">
 
         <div id="avatar" class="position-relative d-none">
-          <img src="data/avatars/female-50.png" alt="Avatar" class="avatar-body w-100">
+          <img src="" alt="Avatar" class="avatar-body w-100">
           <img src="https://www.countryflags.com/wp-content/uploads/china-flag-png-large.png" alt="Flag" class="avatar-flag position-absolute flag">
         </div>
 
