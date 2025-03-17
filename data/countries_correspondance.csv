@@ -1,206 +1,205 @@
-Pays,Lon,Lat,Globocan
-Afghanistan,65.0,33.0,Afghanistan
-Albania,20.0,41.0,Albania
-Algeria,3.0,28.0,Algeria
-Andorra,1.6,42.5,
-Angola,18.0,-12.0,Angola
-Antigua and Barbuda,-61.0,17.0,
-Argentina,-64.0,-34.0,Argentina
-Armenia,45.0,40.0,Armenia
-Australia,133.0,-25.0,Australia
-Austria,14.0,47.0,Austria
-Azerbaijan,47.0,40.0,Azerbaijan
-Bahamas,-77.0,25.0,Bahamas
-Bahrain,50.0,26.0,Bahrain
-Bangladesh,90.0,23.0,Bangladesh
-Barbados,-59.0,13.0,Barbados
-Belarus,28.0,53.0,Belarus
-Belgium,4.0,50.0,Belgium
-Belize,-88.0,17.0,Belize
-Benin,2.0,9.0,Benin
-Bhutan,90.0,27.0,Bhutan
-Bolivia,-65.0,-17.0,Bolivia
-Bosnia and Herzegovina,18.0,44.0,Bosnia Herzegovina
-Botswana,24.0,-22.0,Botswana
-Brazil,-55.0,-10.0,Brazil
-Brunei,114.0,4.0,Brunei Darussalam
-Bulgaria,25.0,42.0,Bulgaria
-Burkina Faso,-1.0,12.0,Burkina Faso
-Burundi,30.0,-3.5,Burundi
-Cabo Verde,-24.0,16.0,
-Cambodia,105.0,13.0,Cambodia
-Cameroon,12.0,4.5,Cameroon
-Canada,-106.0,56.0,Canada
-Central African Republic,21.0,7.0,Central African Republic
-Chad,18.0,15.0,Chad
-Chile,-71.0,-30.0,Chile
-China,103.0,35.0,China
-Colombia,-72.0,4.0,Colombia
-Comoros,44.0,-12.0,Comoros
-Congo (Brazzaville),15.0,-1.0,"Congo, Republic of"
-Congo (Kinshasa),21.0,-2.0,"Congo, Democratic Republic of"
-Costa Rica,-84.0,10.0,Costa Rica
-Côte d'Ivoire,-5.0,8.0,CÃ´te d'Ivoire
-Croatia,16.0,45.0,Croatia
-Cuba,-78.0,21.0,Cuba
-Cyprus,33.0,35.0,Cyprus
-Czechia,15.5,49.8,Czechia
-Denmark,10.0,56.0,Denmark
-Djibouti,42.0,11.0,Djibouti
-Dominica,-61.0,15.5,
-Dominican Republic,-70.0,19.0,Dominican Republic
-Ecuador,-78.0,-1.5,Ecuador
-Egypt,30.0,26.0,Egypt
-El Salvador,-88.0,13.0,El Salvador
-Equatorial Guinea,10.0,2.0,Equatorial Guinea
-Eritrea,39.0,15.0,Eritrea
-Estonia,26.0,59.0,Estonia
-Eswatini,31.5,-26.5,Eswatini
-Ethiopia,40.0,9.0,Ethiopia
-Fiji,179.0,-18.0,Fiji
-Finland,26.0,64.0,Finland
-France,2.0,46.0,France (metropolitan)
-Gabon,11.0,0.5,Gabon
-Gambia,-16.0,13.0,The Republic of the Gambia
-Georgia,43.0,42.0,Georgia
-Germany,10.0,51.0,Germany
-Ghana,-2.0,8.0,Ghana
-Greece,22.0,39.0,Greece
-Grenada,-61.0,12.0,
-Guatemala,-90.0,15.0,Guatemala
-Guinea,-10.0,10.0,Guinea
-Guinea-Bissau,-15.0,12.0,Guinea-Bissau
-Guyana,-58.0,5.0,Guyana
-Haiti,-72.0,19.0,Haiti
-Honduras,-86.0,15.0,Honduras
-Hungary,20.0,47.0,Hungary
-Iceland,-18.0,65.0,Iceland
-India,78.0,21.0,India
-Indonesia,120.0,-5.0,Indonesia
-Iran,53.0,32.0,Iran (Islamic Republic of)
-Iraq,44.0,33.0,Iraq
-Ireland,-8.0,53.0,Ireland
-Israel,34.5,31.5,Israel
-Italy,12.5,42.5,Italy
-Jamaica,-77.0,18.0,Jamaica
-Japan,138.0,36.0,Japan
-Jordan,36.0,31.0,Jordan
-Kazakhstan,68.0,48.0,Kazakhstan
-Kenya,38.0,1.0,Kenya
-Kiribati,173.0,1.0,
-"Korea, North",127.0,40.0,Korea (Democratic People Republic of)
-"Korea, South",128.0,36.0,Republic of Korea
-Kosovo,21.0,42.0,
-Kuwait,47.0,29.5,Kuwait
-Kyrgyzstan,75.0,41.0,Kyrgyzstan
-Laos,103.0,18.0,Lao People's Democratic Republic
-Latvia,25.0,56.0,Latvia
-Lebanon,35.0,33.0,Lebanon
-Lesotho,28.0,-29.5,Lesotho
-Liberia,-10.0,6.0,Liberia
-Libya,17.0,28.0,Libya
-Liechtenstein,9.0,47.0,
-Lithuania,24.0,55.0,Lithuania
-Luxembourg,6.1,49.8,Luxembourg
-Madagascar,46.0,-20.0,Madagascar
-Malawi,34.0,-13.0,Malawi
-Malaysia,101.0,4.0,Malaysia
-Maldives,73.0,3.0,Maldives
-Mali,-4.0,17.0,Mali
-Malta,14.4,35.9,Malta
-Marshall Islands,171.0,8.0,
-Mauritania,-10.0,20.0,Mauritania
-Mauritius,57.5,-20.3,Mauritius
-Mexico,-102.0,23.0,Mexico
-Micronesia,158.0,6.0,
-Moldova,28.0,47.0,Moldova
-Monaco,7.4,43.7,
-Mongolia,103.0,46.0,Mongolia
-Montenegro,19.0,42.0,Montenegro
-Morocco,-5.0,32.0,Morocco
-Mozambique,35.0,-18.0,Mozambique
-Myanmar,96.0,22.0,Myanmar
-Namibia,17.0,-22.0,Namibia
-Nauru,166.0,-0.5,
-Nepal,84.0,28.0,Nepal
-Netherlands,5.0,52.0,The Netherlands
-New Zealand,174.0,-41.0,New Zealand
-Nicaragua,-85.0,13.0,Nicaragua
-Niger,8.0,16.0,Niger
-Nigeria,8.0,9.0,Nigeria
-North Macedonia,21.0,41.0,North Macedonia
-Norway,10.0,62.0,Norway
-Oman,57.0,21.0,Oman
-Pakistan,70.0,30.0,Pakistan
-Palau,134.0,7.0,
-Panama,-80.0,9.0,Panama
-Papua New Guinea,147.0,-6.0,Papua New Guinea
-Paraguay,-58.0,-23.0,Paraguay
-Peru,-76.0,-10.0,Peru
-Philippines,122.0,13.5,Philippines
-Poland,20.0,52.0,Poland
-Portugal,-8.0,39.5,Portugal
-Qatar,51.2,25.3,Qatar
-Romania,25.0,46.0,Romania
-Russia,100.0,60.0,Russian Federation
-Rwanda,30.0,-2.0,Rwanda
-Saint Kitts and Nevis,-62.7,17.3,
-Saint Lucia,-61.0,13.9,Saint Lucia
-Saint Vincent and the Grenadines,-61.2,13.2,
-Samoa,-172.0,-13.5,Samoa
-San Marino,12.5,43.9,
-Sao Tome and Principe,6.6,0.3,Sao Tome and Principe
-Saudi Arabia,45.0,25.0,Saudi Arabia
-Senegal,-14.0,14.0,Senegal
-Serbia,21.0,44.0,Serbia
-Seychelles,55.5,-4.7,
-Sierra Leone,-11.0,8.0,Sierra Leone
-Singapore,103.8,1.3,Singapore
-Slovakia,19.5,48.7,Slovakia
-Slovenia,15.5,46.0,Slovenia
-Solomon Islands,160.0,-8.0,Solomon Islands
-Somalia,48.0,5.0,Somalia
-South Africa,24.0,-29.0,South Africa
-South Sudan,31.0,7.0,South Sudan
-Spain,-4.0,40.0,Spain
-Sri Lanka,81.0,7.0,Sri Lanka
-Sudan,30.0,15.0,Sudan
-Suriname,-56.0,4.0,Suriname
-Sweden,15.0,62.0,Sweden
-Switzerland,8.2,46.8,Switzerland
-Syria,38.0,34.0,Syrian Arab Republic
-Tajikistan,71.0,39.0,Tajikistan
-Tanzania,35.0,-6.0,"Tanzania, United Republic of"
-Thailand,101.0,15.0,Thailand
-Timor-Leste,125.0,-8.5,Timor-Leste
-Togo,1.0,8.0,Togo
-Tonga,-175.0,-20.0,
-Trinidad and Tobago,-61.0,10.5,Trinidad and Tobago
-Tunisia,9.0,34.0,Tunisia
-Turkey,35.0,39.0,TÃ¼rkiye
-Turkmenistan,60.0,40.0,Turkmenistan
-Tuvalu,179.0,-8.0,
-Uganda,32.0,1.0,Uganda
-Ukraine,32.0,49.0,Ukraine
-United Arab Emirates,54.0,24.0,United Arab Emirates
-United Kingdom,-3.0,55.0,United Kingdom
-United States of America,-97.0,38.0,United States of America
-Uruguay,-56.0,-33.0,Uruguay
-Uzbekistan,64.0,41.0,Uzbekistan
-Vanuatu,167.0,-16.0,Vanuatu
-Vatican City,12.5,41.9,
-Venezuela,-66.0,8.0,Venezuela
-Vietnam,107.0,16.0,Viet Nam
-Yemen,48.0,15.0,Yemen
-Zambia,28.0,-15.0,Zambia
-Zimbabwe,30.0,-20.0,Zimbabwe
-Puerto Rico,-66.0,18.2,Puerto Rico
-Gaza Strip and West Bank,34.5,31.5,Gaza Strip and West Bank
-Guam,144.8,13.4,Guam
-Cape Verde,-23.6,15.1,Cape Verde
-French Polynesia,-143.9,-17.8,French Polynesia
-"France, La Reunion",55.5,-21.1,"France, La RÃ©union"
-"France, Martinique",-61.1,14.6,"France, Martinique"
-"France, Guadeloupe",-61.3,16.2,"France, Guadeloupe"
-French Guyana,-53.1,4.9,French Guyana
-New Caledonia,166.5,-22.3,New Caledonia
+Pays;Lon;Lat;Globocan;Flags;;;
+Afghanistan;65.0;33.0;Afghanistan;Afghanistan;;;
+Albania;20.0;41.0;Albania;Albanie;;;
+Algeria;3.0;28.0;Algeria;Algérie;;;
+Andorra;1.6;42.5;;Andorre;;;
+Angola;18.0;-12.0;Angola;Angola;;;
+Antigua and Barbuda;-61.0;17.0;;Antigua et Barbuda;;;
+Argentina;-64.0;-34.0;Argentina;Argentine;;;
+Armenia;45.0;40.0;Armenia;Arménie;;;
+Australia;133.0;-25.0;Australia;Australie;;;
+Austria;14.0;47.0;Austria;Autriche;;;
+Azerbaijan;47.0;40.0;Azerbaijan;Azerbaidjan;;;
+Bahamas;-77.0;25.0;Bahamas;Bahamas;;;
+Bahrain;50.0;26.0;Bahrain;Bahrein;;;
+Bangladesh;90.0;23.0;Bangladesh;Bangladesh;;;
+Barbados;-59.0;13.0;Barbados;Barbade;;;
+Belarus;28.0;53.0;Belarus;Bielorussie;;;
+Belgium;4.0;50.0;Belgium;Belgique;;;
+Belize;-88.0;17.0;Belize;Belize;;;
+Benin;2.0;9.0;Benin;Benin;;;
+Bhutan;90.0;27.0;Bhutan;Bhoutan;;;
+Bolivia;-65.0;-17.0;Bolivia;Bolivie;;;
+Bosnia and Herzegovina;18.0;44.0;Bosnia Herzegovina;Bosnie-Herzegovine;;;
+Botswana;24.0;-22.0;Botswana;Botswana;;;
+Brazil;-55.0;-10.0;Brazil;Bresil;;;
+Brunei;114.0;4.0;Brunei Darussalam;Brunei;;;
+Bulgaria;25.0;42.0;Bulgaria;Bulgarie;;;
+Burkina Faso;-1.0;12.0;Burkina Faso;Burkina Faso;;;
+Burundi;30.0;-3.5;Burundi;Burundi;;;
+Cabo Verde;-23.6;15.1;Cape Verde;Cap-Vert;;;
+Cambodia;105.0;13.0;Cambodia;Cambodge;;;
+Cameroon;12.0;4.5;Cameroon;Cameroun;;;
+Canada;-106.0;56.0;Canada;Canada;;;
+Central African Republic;21.0;7.0;Central African Republic;Centrafricaine Republique;;;
+Chad;18.0;15.0;Chad;Tchad;;;
+Chile;-71.0;-30.0;Chile;Chili;;;
+China;103.0;35.0;China;Chine;;;
+Colombia;-72.0;4.0;Colombia;Colombie;;;
+Comoros;44.0;-12.0;Comoros;Comores;;;
+Congo (Brazzaville);15.0;-1.0;Congo, Republic of;Republique Congo-Brazzaville;;;
+Congo (Kinshasa);21.0;-2.0;Congo, Democratic Republic of;Republique Congo-Kinshasa;;;
+Costa Rica;-84.0;10.0;Costa Rica;Costa Rica;;;
+Côte d'Ivoire;-5.0;8.0;CÃ´te d'Ivoire;Cote Ivoire;;;
+Croatia;16.0;45.0;Croatia;Croatie;;;
+Cuba;-78.0;21.0;Cuba;Cuba;;;
+Cyprus;33.0;35.0;Cyprus;Chypre;;;
+Czechia;15.5;49.8;Czechia;Republique Tcheque;;;
+Denmark;10.0;56.0;Denmark;Danemark;;;
+Djibouti;42.0;11.0;Djibouti;Djibouti;;;
+Dominica;-61.0;15.5;;Dominique;;;
+Dominican Republic;-70.0;19.0;Dominican Republic;République Dominicaine;;;
+Ecuador;-78.0;-1.5;Ecuador;Equateur;;;
+Egypt;30.0;26.0;Egypt;Egypte;;;
+El Salvador;-88.0;13.0;El Salvador;Salvador;;;
+Equatorial Guinea;10.0;2.0;Equatorial Guinea;Guinee equatoriale;;;
+Eritrea;39.0;15.0;Eritrea;Erythrée;;;
+Estonia;26.0;59.0;Estonia;Estonie;;;
+Eswatini;31.5;-26.5;Eswatini;Eswatini;;;
+Ethiopia;40.0;9.0;Ethiopia;Ethiopie;;;
+Fiji;179.0;-18.0;Fiji;Fidji;;;
+Finland;26.0;64.0;Finland;Finlande;;;
+France;2.0;46.0;France (metropolitan);France;;;
+Gabon;11.0;0.5;Gabon;Gabon;;;
+Gambia;-16.0;13.0;The Republic of the Gambia;Gambie;;;
+Georgia;43.0;42.0;Georgia;Géorgie;;;
+Germany;10.0;51.0;Germany;Allemagne;;;
+Ghana;-2.0;8.0;Ghana;Ghana;;;
+Greece;22.0;39.0;Greece;Grèce;;;
+Grenada;-61.0;12.0;;Grenade;;;
+Guatemala;-90.0;15.0;Guatemala;Guatemala;;;
+Guinea;-10.0;10.0;Guinea;Guinee;;;
+Guinea-Bissau;-15.0;12.0;Guinea-Bissau;Guinée-Bissau;;;
+Guyana;-58.0;5.0;Guyana;Guyana;;;
+Haiti;-72.0;19.0;Haiti;Haïti;;;
+Honduras;-86.0;15.0;Honduras;Honduras;;;
+Hungary;20.0;47.0;Hungary;Hongrie;;;
+Iceland;-18.0;65.0;Iceland;Islande;;;
+India;78.0;21.0;India;Inde;;;
+Indonesia;120.0;-5.0;Indonesia;Indonésie;;;
+Iran;53.0;32.0;Iran (Islamic Republic of);Iran;;;
+Iraq;44.0;33.0;Iraq;Iraq;;;
+Ireland;-8.0;53.0;Ireland;Irlande;;;
+Israel;34.5;31.5;Israel;Israel;;;
+Italy;12.5;42.5;Italy;Italie;;;
+Jamaica;-77.0;18.0;Jamaica;Jamaïque;;;
+Japan;138.0;36.0;Japan;Japon;;;
+Jordan;36.0;31.0;Jordan;Jordanie;;;
+Kazakhstan;68.0;48.0;Kazakhstan;Kazakhstan;;;
+Kenya;38.0;1.0;Kenya;Kenya;;;
+Kiribati;173.0;1.0;;Kiribati;;;
+Korea, North;127.0;40.0;Korea (Democratic People Republic of);Corée du Nord;;;
+Korea, South;128.0;36.0;Republic of Korea;Corée du Sud;;;
+Kosovo;21.0;42.0;;Kosovo;;;
+Kuwait;47.0;29.5;Kuwait;Koweït;;;
+Kyrgyzstan;75.0;41.0;Kyrgyzstan;Kirghizistan;;;
+Laos;103.0;18.0;Lao People's Democratic Republic;Laos;;;
+Latvia;25.0;56.0;Latvia;Lettonie;;;
+Lebanon;35.0;33.0;Lebanon;Liban;;;
+Lesotho;28.0;-29.5;Lesotho;Lesotho;;;
+Liberia;-10.0;6.0;Liberia;Liberia;;;
+Libya;17.0;28.0;Libya;Libye;;;
+Liechtenstein;9.0;47.0;;Liechtenstein;;;
+Lithuania;24.0;55.0;Lithuania;Lituanie;;;
+Luxembourg;6.1;49.8;Luxembourg;Luxembourg;;;
+Madagascar;46.0;-20.0;Madagascar;Madagascar;;;
+Malawi;34.0;-13.0;Malawi;Malawi;;;
+Malaysia;101.0;4.0;Malaysia;Malaisie;;;
+Maldives;73.0;3.0;Maldives;Maldives;;;
+Mali;-4.0;17.0;Mali;Mali;;;
+Malta;14.4;35.9;Malta;Malte;;;
+Marshall Islands;171.0;8.0;;Iles Marshall;;;
+Mauritania;-10.0;20.0;Mauritania;Mauritanie;;;
+Mauritius;57.5;-20.3;Mauritius;Maurice;;;
+Mexico;-102.0;23.0;Mexico;Mexique;;;
+Micronesia;158.0;6.0;;Micronésie;;;
+Moldova;28.0;47.0;Moldova;Moldavie;;;
+Monaco;7.4;43.7;;Monaco;;;
+Mongolia;103.0;46.0;Mongolia;Mongolie;;;
+Montenegro;19.0;42.0;Montenegro;Monténégro;;;
+Morocco;-5.0;32.0;Morocco;Maroc;;;
+Mozambique;35.0;-18.0;Mozambique;Mozambique;;;
+Myanmar;96.0;22.0;Myanmar;Myanmar;;;
+Namibia;17.0;-22.0;Namibia;Namibie;;;
+Nauru;166.0;-0.5;;Nauru;;;
+Nepal;84.0;28.0;Nepal;Nepal;;;
+Netherlands;5.0;52.0;The Netherlands;Pays-Bas;;;
+New Zealand;174.0;-41.0;New Zealand;Nouvelle-Zélande;;;
+Nicaragua;-85.0;13.0;Nicaragua;Nicaragua;;;
+Niger;8.0;16.0;Niger;Niger;;;
+Nigeria;8.0;9.0;Nigeria;Nigeria;;;
+North Macedonia;21.0;41.0;North Macedonia;Macédoine du Nord;;;
+Norway;10.0;62.0;Norway;Norvège;;;
+Oman;57.0;21.0;Oman;Oman;;;
+Pakistan;70.0;30.0;Pakistan;Pakistan;;;
+Palau;134.0;7.0;;Palau;;;
+Panama;-80.0;9.0;Panama;Panama;;;
+Papua New Guinea;147.0;-6.0;Papua New Guinea;Papouasie-Nouvelle -Guinée;;;
+Paraguay;-58.0;-23.0;Paraguay;Paraguay;;;
+Peru;-76.0;-10.0;Peru;Pérou;;;
+Philippines;122.0;13.5;Philippines;Philippines;;;
+Poland;20.0;52.0;Poland;Pologne;;;
+Portugal;-8.0;39.5;Portugal;Portugal;;;
+Qatar;51.2;25.3;Qatar;Qatar;;;
+Romania;25.0;46.0;Romania;Roumanie;;;
+Russia;100.0;60.0;Russian Federation;Russie;;;
+Rwanda;30.0;-2.0;Rwanda;Rwanda;;;
+Saint Kitts and Nevis;-62.7;17.3;;Saint-Christophe-et-Niévès;;;
+Saint Lucia;-61.0;13.9;Saint Lucia;Sainte-Lucie;;;
+Saint Vincent and the Grenadines;-61.2;13.2;;Saint-Vincent-et-les Grenadines;;;
+Samoa;-172.0;-13.5;Samoa;Samoa;;;
+San Marino;12.5;43.9;;Saint-Marin;;;
+Sao Tome and Principe;6.6;0.3;Sao Tome and Principe;São Tomé-et-Principe;;;
+Saudi Arabia;45.0;25.0;Saudi Arabia;Arabie saoudite;;;
+Senegal;-14.0;14.0;Senegal;Senegal;;;
+Serbia;21.0;44.0;Serbia;Serbie;;;
+Seychelles;55.5;-4.7;;Seychelles;;;
+Sierra Leone;-11.0;8.0;Sierra Leone;Sierra Leone;;;
+Singapore;103.8;1.3;Singapore;Singapour;;;
+Slovakia;19.5;48.7;Slovakia;Slovaquie;;;
+Slovenia;15.5;46.0;Slovenia;Slovenie;;;
+Solomon Islands;160.0;-8.0;Solomon Islands;Iles Salomon;;;
+Somalia;48.0;5.0;Somalia;Somalie;;;
+South Africa;24.0;-29.0;South Africa;Afrique du Sud;;;
+South Sudan;31.0;7.0;South Sudan;Soudan du Sud;;;
+Spain;-4.0;40.0;Spain;Espagne;;;
+Sri Lanka;81.0;7.0;Sri Lanka;Sri Lanka;;;
+Sudan;30.0;15.0;Sudan;Soudan;;;
+Suriname;-56.0;4.0;Suriname;Suriname;;;
+Sweden;15.0;62.0;Sweden;Suede;;;
+Switzerland;8.2;46.8;Switzerland;Suisse;;;
+Syria;38.0;34.0;Syrian Arab Republic;Syrie;;;
+Tajikistan;71.0;39.0;Tajikistan;Tadjikistan;;;
+Tanzania;35.0;-6.0;Tanzania, United Republic of;Tanzanie;;;
+Thailand;101.0;15.0;Thailand;Taïlande;;;
+Timor-Leste;125.0;-8.5;Timor-Leste;Timor oriental;;;
+Togo;1.0;8.0;Togo;Togo;;;
+Tonga;-175.0;-20.0;;Tonga;;;
+Trinidad and Tobago;-61.0;10.5;Trinidad and Tobago;Trinite-et-Tobago;;;
+Tunisia;9.0;34.0;Tunisia;Tunisie;;;
+Turkey;35.0;39.0;TÃ¼rkiye;Turquie;;;
+Turkmenistan;60.0;40.0;Turkmenistan;Turkmenistan;;;
+Tuvalu;179.0;-8.0;;Tuvalu;;;
+Uganda;32.0;1.0;Uganda;Ouganda;;;
+Ukraine;32.0;49.0;Ukraine;Ukraine;;;
+United Arab Emirates;54.0;24.0;United Arab Emirates;Emirats arabes unis;;;
+United Kingdom;-3.0;55.0;United Kingdom;Royaume-Uni;;;
+United States of America;-97.0;38.0;United States of America;Etats-Unis;;;
+Uruguay;-56.0;-33.0;Uruguay;Uruguay;;;
+Uzbekistan;64.0;41.0;Uzbekistan;Ouzbekistan;;;
+Vanuatu;167.0;-16.0;Vanuatu;Vanuatu;;;
+Vatican City;12.5;41.9;;Vatican;;;
+Venezuela;-66.0;8.0;Venezuela;Venezuela;;;
+Vietnam;107.0;16.0;Viet Nam;Viet Nam;;;
+Yemen;48.0;15.0;Yemen;Yemen;;;
+Zambia;28.0;-15.0;Zambia;Zambie;;;
+Zimbabwe;30.0;-20.0;Zimbabwe;Zimbabwe;;;
+Puerto Rico;-66.0;18.2;Puerto Rico;Porto Rico;;;
+Gaza Strip and West Bank;34.5;31.5;Gaza Strip and West Bank;Gaza Strip and West Bank;;;
+Guam;144.8;13.4;Guam;Guam;;;
+French Polynesia;-143.9;-17.8;French Polynesia;French Polynesia;;;
+France, La Reunion;55.5;-21.1;France, La RÃ©union;France, La Reunion;;;
+France, Martinique;-61.1;14.6;France, Martinique;France, Martinique;;;
+France, Guadeloupe;-61.3;16.2;France, Guadeloupe;Guadeloupe;;;
+French Guyana;-53.1;4.9;French Guyana;French Guyana;;;
+New Caledonia;166.5;-22.3;New Caledonia;Nouvelle-Calédonie;;;
