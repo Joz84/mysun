@@ -1,0 +1,205 @@
+Pays,Lon,Lat,Globocan,Flags,pourcentage,yearly_shunshine_hour
+Afghanistan,65.0,33.0,Afghanistan,Afghanistan,-1.63,-35.04
+Albania,20.0,41.0,Albania,Albanie,7.13,113.88
+Algeria,3.0,28.0,Algeria,Algérie,-1.22,-26.28
+Andorra,1.6,42.5,,Andorre,6.23,96.36
+Angola,18.0,-12.0,Angola,Angola,-2.04,-43.8
+Antigua and Barbuda,-61.0,17.0,,Antigua et Barbuda,0.88,17.52
+Argentina,-64.0,-34.0,Argentina,Argentine,-0.49,-8.76
+Armenia,45.0,40.0,Armenia,Arménie,0.0,0.0
+Australia,133.0,-25.0,Australia,Australie,0.0,0.0
+Austria,14.0,47.0,Austria,Autriche,10.23,122.64
+Azerbaijan,47.0,40.0,Azerbaijan,Azerbaidjan,0.0,0.0
+Bahamas,-77.0,25.0,Bahamas,Bahamas,1.35,26.28
+Bahrain,50.0,26.0,Bahrain,Bahrein,-3.76,-78.84
+Bangladesh,90.0,23.0,Bangladesh,Bangladesh,-7.44,-122.64
+Barbados,-59.0,13.0,Barbados,Barbade,1.25,26.28
+Belarus,28.0,53.0,Belarus,Bielorussie,9.57,105.12
+Belgium,4.0,50.0,Belgium,Belgique,11.16,122.64
+Belize,-88.0,17.0,Belize,Belize,1.42,26.28
+Benin,2.0,9.0,Benin,Benin,-5.54,-105.12
+Bhutan,90.0,27.0,Bhutan,Bhoutan,-7.26,-105.12
+Bolivia,-65.0,-17.0,Bolivia,Bolivie,3.19,70.08
+Bosnia and Herzegovina,18.0,44.0,Bosnia Herzegovina,Bosnie-Herzegovine,8.77,122.64
+Botswana,24.0,-22.0,Botswana,Botswana,0.0,0.0
+Brazil,-55.0,-10.0,Brazil,Bresil,3.95,78.84
+Brunei,114.0,4.0,Brunei Darussalam,Brunei,1.46,26.28
+Bulgaria,25.0,42.0,Bulgaria,Bulgarie,8.47,122.64
+Burkina Faso,-1.0,12.0,Burkina Faso,Burkina Faso,-4.08,-87.6
+Burundi,30.0,-3.5,Burundi,Burundi,-0.45,-8.76
+Cabo Verde,-23.6,15.1,Cape Verde,Cap-Vert,-0.82,-17.52
+Cambodia,105.0,13.0,Cambodia,Cambodge,0.0,0.0
+Cameroon,12.0,4.5,Cameroon,Cameroun,-3.15,-61.32
+Canada,-106.0,56.0,Canada,Canada,0.73,8.76
+Central African Republic,21.0,7.0,Central African Republic,Centrafricaine Republique,-2.92,-61.32
+Chad,18.0,15.0,Chad,Tchad,-2.73,-61.32
+Chile,-71.0,-30.0,Chile,Chili,0.97,17.52
+China,103.0,35.0,China,Chine,1.75,26.28
+Colombia,-72.0,4.0,Colombia,Colombie,1.9,35.04
+Comoros,44.0,-12.0,Comoros,Comores,0.97,17.52
+Congo (Brazzaville),15.0,-1.0,"Congo, Republic of",Republique Congo-Brazzaville,-0.95,-17.52
+Congo (Kinshasa),21.0,-2.0,"Congo, Democratic Republic of",Republique Congo-Kinshasa,-2.44,-43.8
+Costa Rica,-84.0,10.0,Costa Rica,Costa Rica,1.46,26.28
+Côte d'Ivoire,-5.0,8.0,CÃ´te d'Ivoire,Cote Ivoire,-5.36,-96.36
+Croatia,16.0,45.0,Croatia,Croatie,9.45,122.64
+Cuba,-78.0,21.0,Cuba,Cuba,1.32,26.28
+Cyprus,33.0,35.0,Cyprus,Chypre,0.46,8.76
+Czechia,15.5,49.8,Czechia,Republique Tcheque,11.16,122.64
+Denmark,10.0,56.0,Denmark,Danemark,8.77,87.6
+Djibouti,42.0,11.0,Djibouti,Djibouti,-3.12,-70.08
+Dominica,-61.0,15.5,,Dominique,1.55,26.28
+Dominican Republic,-70.0,19.0,Dominican Republic,République Dominicaine,1.42,26.28
+Ecuador,-78.0,-1.5,Ecuador,Equateur,3.84,61.32
+Egypt,30.0,26.0,Egypt,Egypte,2.29,52.56
+El Salvador,-88.0,13.0,El Salvador,Salvador,0.4,8.76
+Equatorial Guinea,10.0,2.0,Equatorial Guinea,Guinee equatoriale,-2.06,-35.04
+Eritrea,39.0,15.0,Eritrea,Erythrée,-2.39,-52.56
+Estonia,26.0,59.0,Estonia,Estonie,6.14,61.32
+Eswatini,31.5,-26.5,Eswatini,Eswatini,0.0,0.0
+Ethiopia,40.0,9.0,Ethiopia,Ethiopie,-4.39,-96.36
+Fiji,179.0,-18.0,Fiji,Fidji,0.0,0.0
+Finland,26.0,64.0,Finland,Finlande,6.19,52.56
+France,2.0,46.0,France (metropolitan),France,8.1,105.12
+Gabon,11.0,0.5,Gabon,Gabon,-2.58,-43.8
+Gambia,-16.0,13.0,The Republic of the Gambia,Gambie,-1.25,-26.28
+Georgia,43.0,42.0,Georgia,Géorgie,3.13,43.8
+Germany,10.0,51.0,Germany,Allemagne,11.16,122.64
+Ghana,-2.0,8.0,Ghana,Ghana,-5.22,-96.36
+Greece,22.0,39.0,Greece,Grèce,4.93,78.84
+Grenada,-61.0,12.0,,Grenade,0.97,17.52
+Guatemala,-90.0,15.0,Guatemala,Guatemala,0.45,8.76
+Guinea,-10.0,10.0,Guinea,Guinee,-3.34,-70.08
+Guinea-Bissau,-15.0,12.0,Guinea-Bissau,Guinée-Bissau,-3.51,-70.08
+Guyana,-58.0,5.0,Guyana,Guyana,2.31,43.8
+Haiti,-72.0,19.0,Haiti,Haïti,0.82,17.52
+Honduras,-86.0,15.0,Honduras,Honduras,0.49,8.76
+Hungary,20.0,47.0,Hungary,Hongrie,9.45,122.64
+Iceland,-18.0,65.0,Iceland,Islande,-1.1,-8.76
+India,78.0,21.0,India,Inde,-6.46,-122.64
+Indonesia,120.0,-5.0,Indonesia,Indonésie,0.52,8.76
+Iran,53.0,32.0,Iran (Islamic Republic of),Iran,-1.67,-35.04
+Iraq,44.0,33.0,Iraq,Iraq,-1.75,-35.04
+Ireland,-8.0,53.0,Ireland,Irlande,9.75,87.6
+Israel,34.5,31.5,Israel,Israel,0.86,17.52
+Italy,12.5,42.5,Italy,Italie,7.02,105.12
+Jamaica,-77.0,18.0,Jamaica,Jamaïque,0.95,17.52
+Japan,138.0,36.0,Japan,Japon,1.25,17.52
+Jordan,36.0,31.0,Jordan,Jordanie,0.8,17.52
+Kazakhstan,68.0,48.0,Kazakhstan,Kazakhstan,4.23,61.32
+Kenya,38.0,1.0,Kenya,Kenya,-4.08,-87.6
+Kiribati,173.0,1.0,,Kiribati,0.0,0.0
+"Korea, North",127.0,40.0,Korea (Democratic People Republic of),Corée du Nord,0.0,0.0
+"Korea, South",128.0,36.0,Republic of Korea,Corée du Sud,0.0,0.0
+Kosovo,21.0,42.0,,Kosovo,7.26,105.12
+Kuwait,47.0,29.5,Kuwait,Koweït,-2.92,-61.32
+Kyrgyzstan,75.0,41.0,Kyrgyzstan,Kirghizistan,-0.53,-8.76
+Laos,103.0,18.0,Lao People's Democratic Republic,Laos,0.0,0.0
+Latvia,25.0,56.0,Latvia,Lettonie,10.53,105.12
+Lebanon,35.0,33.0,Lebanon,Liban,1.28,26.28
+Lesotho,28.0,-29.5,Lesotho,Lesotho,0.42,8.76
+Liberia,-10.0,6.0,Liberia,Liberia,-5.36,-96.36
+Libya,17.0,28.0,Libya,Libye,-1.95,-43.8
+Liechtenstein,9.0,47.0,,Liechtenstein,10.23,122.64
+Lithuania,24.0,55.0,Lithuania,Lituanie,10.03,105.12
+Luxembourg,6.1,49.8,Luxembourg,Luxembourg,11.16,122.64
+Madagascar,46.0,-20.0,Madagascar,Madagascar,1.2,26.28
+Malawi,34.0,-13.0,Malawi,Malawi,1.25,26.28
+Malaysia,101.0,4.0,Malaysia,Malaisie,1.03,17.52
+Maldives,73.0,3.0,Maldives,Maldives,0.86,17.52
+Mali,-4.0,17.0,Mali,Mali,-3.59,-78.84
+Malta,14.4,35.9,Malta,Malte,3.32,61.32
+Marshall Islands,171.0,8.0,,Iles Marshall,0.0,0.0
+Mauritania,-10.0,20.0,Mauritania,Mauritanie,-1.99,-43.8
+Mauritius,57.5,-20.3,Mauritius,Maurice,1.55,26.28
+Mexico,-102.0,23.0,Mexico,Mexique,1.59,35.04
+Micronesia,158.0,6.0,,Micronésie,0.0,0.0
+Moldova,28.0,47.0,Moldova,Moldavie,9.45,122.64
+Monaco,7.4,43.7,,Monaco,8.19,122.64
+Mongolia,103.0,46.0,Mongolia,Mongolie,0.0,0.0
+Montenegro,19.0,42.0,Montenegro,Monténégro,7.26,105.12
+Morocco,-5.0,32.0,Morocco,Maroc,0.86,17.52
+Mozambique,35.0,-18.0,Mozambique,Mozambique,0.0,0.0
+Myanmar,96.0,22.0,Myanmar,Myanmar,-5.01,-87.6
+Namibia,17.0,-22.0,Namibia,Namibie,0.0,0.0
+Nauru,166.0,-0.5,,Nauru,0.0,0.0
+Nepal,84.0,28.0,Nepal,Nepal,-6.02,-105.12
+Netherlands,5.0,52.0,The Netherlands,Pays-Bas,11.7,122.64
+New Zealand,174.0,-41.0,New Zealand,Nouvelle-Zélande,0.65,8.76
+Nicaragua,-85.0,13.0,Nicaragua,Nicaragua,1.46,26.28
+Niger,8.0,16.0,Niger,Niger,-3.05,-70.08
+Nigeria,8.0,9.0,Nigeria,Nigeria,-5.4,-105.12
+North Macedonia,21.0,41.0,North Macedonia,Macédoine du Nord,7.36,113.88
+Norway,10.0,62.0,Norway,Norvège,2.92,26.28
+Oman,57.0,21.0,Oman,Oman,-2.67,-61.32
+Pakistan,70.0,30.0,Pakistan,Pakistan,-4.39,-87.6
+Palau,134.0,7.0,,Palau,0.0,0.0
+Panama,-80.0,9.0,Panama,Panama,1.5,26.28
+Papua New Guinea,147.0,-6.0,Papua New Guinea,Papouasie-Nouvelle -Guinée,0.0,0.0
+Paraguay,-58.0,-23.0,Paraguay,Paraguay,1.42,26.28
+Peru,-76.0,-10.0,Peru,Pérou,3.51,70.08
+Philippines,122.0,13.5,Philippines,Philippines,0.0,0.0
+Poland,20.0,52.0,Poland,Pologne,11.16,122.64
+Portugal,-8.0,39.5,Portugal,Portugal,6.38,105.12
+Qatar,51.2,25.3,Qatar,Qatar,-2.45,-52.56
+Romania,25.0,46.0,Romania,Roumanie,9.45,122.64
+Russia,100.0,60.0,Russian Federation,Russie,7.02,70.08
+Rwanda,30.0,-2.0,Rwanda,Rwanda,-0.92,-17.52
+Saint Kitts and Nevis,-62.7,17.3,,Saint-Christophe-et-Niévès,0.84,17.52
+Saint Lucia,-61.0,13.9,Saint Lucia,Sainte-Lucie,0.9,17.52
+Saint Vincent and the Grenadines,-61.2,13.2,,Saint-Vincent-et-les Grenadines,1.0,17.52
+Samoa,-172.0,-13.5,Samoa,Samoa,0.0,0.0
+San Marino,12.5,43.9,,Saint-Marin,7.86,113.88
+Sao Tome and Principe,6.6,0.3,Sao Tome and Principe,São Tomé-et-Principe,-3.51,-52.56
+Saudi Arabia,45.0,25.0,Saudi Arabia,Arabie saoudite,-3.81,-87.6
+Senegal,-14.0,14.0,Senegal,Senegal,-1.67,-35.04
+Serbia,21.0,44.0,Serbia,Serbie,9.1,122.64
+Seychelles,55.5,-4.7,,Seychelles,0.0,0.0
+Sierra Leone,-11.0,8.0,Sierra Leone,Sierra Leone,-3.69,-70.08
+Singapore,103.8,1.3,Singapore,Singapour,1.1,17.52
+Slovakia,19.5,48.7,Slovakia,Slovaquie,10.23,122.64
+Slovenia,15.5,46.0,Slovenia,Slovenie,9.45,122.64
+Solomon Islands,160.0,-8.0,Solomon Islands,Iles Salomon,0.0,0.0
+Somalia,48.0,5.0,Somalia,Somalie,-4.78,-105.12
+South Africa,24.0,-29.0,South Africa,Afrique du Sud,1.22,26.28
+South Sudan,31.0,7.0,South Sudan,Soudan du Sud,-3.42,-70.08
+Spain,-4.0,40.0,Spain,Espagne,6.02,105.12
+Sri Lanka,81.0,7.0,Sri Lanka,Sri Lanka,-1.8,-35.04
+Sudan,30.0,15.0,Sudan,Soudan,-3.05,-70.08
+Suriname,-56.0,4.0,Suriname,Suriname,1.8,35.04
+Sweden,15.0,62.0,Sweden,Suede,5.26,52.56
+Switzerland,8.2,46.8,Switzerland,Suisse,10.23,122.64
+Syria,38.0,34.0,Syrian Arab Republic,Syrie,0.0,0.0
+Tajikistan,71.0,39.0,Tajikistan,Tadjikistan,-1.5,-26.28
+Tanzania,35.0,-6.0,"Tanzania, United Republic of",Tanzanie,-0.82,-17.52
+Thailand,101.0,15.0,Thailand,Taïlande,-0.92,-17.52
+Timor-Leste,125.0,-8.5,Timor-Leste,Timor oriental,0.0,0.0
+Togo,1.0,8.0,Togo,Togo,-5.54,-105.12
+Tonga,-175.0,-20.0,,Tonga,0.0,0.0
+Trinidad and Tobago,-61.0,10.5,Trinidad and Tobago,Trinite-et-Tobago,1.85,35.04
+Tunisia,9.0,34.0,Tunisia,Tunisie,1.8,35.04
+Turkey,35.0,39.0,TÃ¼rkiye,Turquie,4.13,70.08
+Turkmenistan,60.0,40.0,Turkmenistan,Turkmenistan,1.0,17.52
+Tuvalu,179.0,-8.0,,Tuvalu,0.0,0.0
+Uganda,32.0,1.0,Uganda,Ouganda,-2.51,-52.56
+Ukraine,32.0,49.0,Ukraine,Ukraine,9.12,113.88
+United Arab Emirates,54.0,24.0,United Arab Emirates,Emirats arabes unis,-3.19,-70.08
+United Kingdom,-3.0,55.0,United Kingdom,Royaume-Uni,11.7,105.12
+United States of America,-97.0,38.0,United States of America,Etats-Unis,4.78,78.84
+Uruguay,-56.0,-33.0,Uruguay,Uruguay,0.0,0.0
+Uzbekistan,64.0,41.0,Uzbekistan,Ouzbekistan,2.06,35.04
+Vanuatu,167.0,-16.0,Vanuatu,Vanuatu,0.0,0.0
+Vatican City,12.5,41.9,,Vatican,7.68,122.64
+Venezuela,-66.0,8.0,Venezuela,Venezuela,2.7,52.56
+Vietnam,107.0,16.0,Viet Nam,Viet Nam,0.0,0.0
+Yemen,48.0,15.0,Yemen,Yemen,-3.29,-78.84
+Zambia,28.0,-15.0,Zambia,Zambie,0.0,0.0
+Zimbabwe,30.0,-20.0,Zimbabwe,Zimbabwe,0.0,0.0
+Puerto Rico,-66.0,18.2,Puerto Rico,Porto Rico,1.95,35.04
+Gaza Strip and West Bank,34.5,31.5,Gaza Strip and West Bank,Gaza Strip and West Bank,0.84,17.52
+Guam,144.8,13.4,Guam,Guam,1.25,26.28
+French Polynesia,-143.9,-17.8,French Polynesia,French Polynesia,0.97,17.52
+"France, La Reunion",55.5,-21.1,"France, La RÃ©union","France, La Reunion",0.52,8.76
+"France, Martinique",-61.1,14.6,"France, Martinique","France, Martinique",1.75,35.04
+"France, Guadeloupe",-61.3,16.2,"France, Guadeloupe",Guadeloupe,1.8,35.04
+French Guyana,-53.1,4.9,French Guyana,French Guyana,2.77,52.56
+New Caledonia,166.5,-22.3,New Caledonia,Nouvelle-Calédonie,0.0,0.0
