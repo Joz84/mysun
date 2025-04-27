@@ -1,181 +1,186 @@
 country,variation
-Afghanistan,92.0128
-Albania,45.1807
-Algeria,83.2647
-Angola,113.6364
-Azerbaijan,57.8616
-Argentina,39.5853
-Australia,37.8325
-Austria,30.5699
-Bahamas,133.3333
-Bahrain,66.6667
-Bangladesh,103.9124
-Armenia,50.495
-Barbados,66.6667
-Belgium,23.3422
+Afghanistan,81.4
+Albania,40.4
+Algeria,82.2
+Angola,102.9
+Argentina,46.9
+Armenia,34.7
+Australia,37.2
+Austria,37.8
+Azerbaijan,53.8
+Bahamas,71.4
+Bahrain,108.3
+Bangladesh,84.1
+Barbados,25.0
+Belarus,26.1
+Belgium,34.3
+Belize,82.6
+Benin,80.1
 Bhutan,100.0
-Bolivia,14.8936
-Bosnia Herzegovina,14.0541
-Botswana,67.1875
-Brazil,67.2578
-Belize,100.0
-Solomon Islands,50.0
-Brunei Darussalam,77.7778
-Bulgaria,5.4567
-Myanmar,49.8792
-Burundi,102.7778
-Belarus,21.7602
-Cambodia,78.0488
-Cameroon,86.9369
-Canada,60.8145
-Cape Verde,133.3333
-Central African Republic,56.6667
-Sri Lanka,54.1284
-Chad,84.6154
-Chile,66.6901
-China,69.557
-Colombia,76.0602
-Comoros,50.0
-"Congo, Republic of",88.4615
-"Congo, Democratic Republic of",84.6561
-Costa Rica,82.7004
-Croatia,11.7647
-Cuba,37.6157
-Cyprus,67.027
-Czechia,14.4714
-Benin,80.2632
-Denmark,26.1077
-Dominican Republic,41.0714
-Ecuador,87.9032
-El Salvador,51.2397
-Equatorial Guinea,160.0
-Ethiopia,90.5405
-Eritrea,70.2703
-Estonia,3.7879
-Fiji,66.6667
-Finland,22.5225
-France (metropolitan),30.4194
-French Guyana,69.2308
-French Polynesia,60.0
-Djibouti,88.8889
-Gabon,88.8889
-Georgia,11.1639
-The Republic of the Gambia,100.0
-Gaza Strip and West Bank,89.6552
-Germany,20.2765
-Ghana,82.8947
-Greece,20.4941
-"France, Guadeloupe",36.3636
-Guatemala,71.1475
-Guinea,74.7059
-Haiti,32.3944
-Honduras,71.7949
-Hungary,8.8905
-Iceland,49.3827
-India,66.782
-Indonesia,69.163
-Iran (Islamic Republic of),109.3215
-Iraq,115.4167
-Ireland,60.6623
-Israel,42.9363
-Italy,14.2909
-CÃ´te d'Ivoire,84.8649
-Jamaica,35.8974
-Japan,18.3395
-Kazakhstan,45.8984
-Jordan,105.5556
-Kenya,90.5433
-Korea (Democratic People Republic of),36.6379
-Republic of Korea,78.7181
-Kuwait,146.1538
-Kyrgyzstan,81.5951
-Lao People's Democratic Republic,79.7101
-Lebanon,46.0123
-Lesotho,28.9474
-Latvia,-6.4516
-Liberia,66.0
-Libya,92.1053
-Lithuania,0.9063
-Luxembourg,55.9028
-Madagascar,91.1308
-Malawi,95.7187
-Malaysia,94.8805
-Maldives,100.0
-Mali,88.3178
-Malta,50.0
-"France, Martinique",25.0
-Mauritania,74.4681
-Mauritius,44.4444
-Mexico,83.9614
-Mongolia,141.9355
-Moldova,-8.4175
-Montenegro,25.5319
-Morocco,60.0
-Mozambique,78.9655
-Oman,100.0
-Namibia,73.2824
-Nepal,51.3514
-The Netherlands,29.8706
-New Caledonia,90.9091
-New Zealand,39.2536
-Nicaragua,67.9487
-Niger,95.0276
-Nigeria,72.4228
-Norway,39.4893
-Pakistan,75.7168
-Panama,85.6115
-Papua New Guinea,113.4529
-Paraguay,62.5899
-Peru,67.0802
-Philippines,62.963
-Poland,36.4469
-Portugal,21.3201
-Guinea-Bissau,84.2105
-Timor-Leste,50.0
-Puerto Rico,38.9881
-Qatar,71.4286
-"France, La RÃ©union",45.0
-Romania,12.5744
-Russian Federation,10.8274
-Rwanda,83.0882
+Bolivia,13.0
+Bosnia Herzegovina,15.4
+Botswana,80.8
+Brazil,67.1
+Brunei Darussalam,87.1
+Bulgaria,8.9
+Burkina Faso,92.3
+Burundi,105.1
+CÃ´te d'Ivoire,80.0
+Cambodia,102.6
+Cameroon,89.7
+Canada,66.7
+Cape Verde,133.3
+Central African Republic,61.4
+Chad,86.3
+Chile,79.5
+China,61.6
+Colombia,76.1
+Comoros,54.5
+"Congo, Democratic Republic of",83.2
+"Congo, Republic of",103.7
+Costa Rica,76.0
+Croatia,23.7
+Cuba,31.3
+Cyprus,76.6
+Czechia,20.1
+Denmark,32.4
+Djibouti,72.2
+Dominican Republic,38.2
+Ecuador,84.7
+Egypt,74.8
+El Salvador,40.2
+Equatorial Guinea,168.4
+Eritrea,67.6
+Estonia,15.6
+Eswatini,65.8
+Ethiopia,88.8
+Fiji,60.0
+Finland,30.0
+France (metropolitan),33.5
+"France, Guadeloupe",19.4
+"France, La RÃ©union",37.5
+"France, Martinique",21.2
+French Guyana,75.8
+French Polynesia,68.4
+Gabon,93.0
+Gaza Strip and West Bank,88.2
+Georgia,4.7
+Germany,28.3
+Ghana,73.0
+Greece,17.4
+Guam,0.0
+Guatemala,68.7
+Guinea,88.6
+Guinea-Bissau,84.4
+Guyana,50.0
+Haiti,30.1
+Honduras,72.2
+Hungary,15.5
+Iceland,61.3
+India,63.2
+Indonesia,66.4
+Iran (Islamic Republic of),100.1
+Iraq,113.3
+Ireland,65.4
+Israel,48.3
+Italy,23.8
+Jamaica,28.2
+Japan,16.0
+Jordan,113.5
+Kazakhstan,46.9
+Kenya,94.4
+Korea (Democratic People Republic of),52.6
+Kuwait,170.6
+Kyrgyzstan,88.8
+Lao People's Democratic Republic,78.9
+Latvia,0.0
+Lebanon,34.0
+Lesotho,35.8
+Liberia,64.5
+Libya,100.0
+Lithuania,9.8
+Luxembourg,67.8
+Madagascar,89.2
+Malawi,91.7
+Malaysia,87.4
+Maldives,212.5
+Mali,94.8
+Malta,69.4
+Mauritania,69.8
+Mauritius,44.9
+Mexico,79.7
+Moldova,-13.0
+Mongolia,120.8
+Montenegro,25.2
+Morocco,62.3
+Mozambique,82.8
+Myanmar,55.2
+Namibia,74.3
+Nepal,51.2
+New Caledonia,84.3
+New Zealand,39.1
+Nicaragua,73.6
+Niger,96.6
+Nigeria,74.7
+North Macedonia,44.3
+Norway,48.8
+Oman,84.9
+Pakistan,60.8
+Panama,83.0
+Papua New Guinea,108.3
+Paraguay,49.6
+Peru,62.3
+Philippines,73.3
+Poland,39.5
+Portugal,23.3
+Puerto Rico,37.7
+Qatar,100.0
+Republic of Korea,75.4
+Romania,14.3
+Russian Federation,15.8
+Rwanda,80.7
 Saint Lucia,0.0
-Saudi Arabia,134.1463
-Senegal,91.133
-Serbia,6.4777
-Sierra Leone,100.0
-Singapore,122.9592
-Slovakia,44.8507
-Viet Nam,71.9844
-Slovenia,21.987
-Somalia,86.25
-South Africa,72.6548
-Zimbabwe,80.5634
-Spain,34.2652
-South Sudan,59.6154
-Sudan,74.9304
-Suriname,55.5556
-Eswatini,64.0
-Sweden,28.1196
-Switzerland,41.1335
-Syrian Arab Republic,141.2322
-Tajikistan,92.8571
-Thailand,88.6569
-Togo,81.6514
-Trinidad and Tobago,85.7143
-United Arab Emirates,117.9487
-Tunisia,77.5424
-TÃ¼rkiye,58.9038
-Turkmenistan,86.1635
-Uganda,87.8116
-Ukraine,10.5777
-North Macedonia,57.3333
-Egypt,75.4219
-United Kingdom,28.9828
-"Tanzania, United Republic of",109.5238
-United States of America,48.3053
-Burkina Faso,92.5373
-Uruguay,16.8576
-Uzbekistan,81.2977
-Venezuela,79.7494
-Yemen,104.3103
-Zambia,107.7922
+Samoa,0.0
+Sao Tome and Principe,100.0
+Saudi Arabia,160.6
+Senegal,91.4
+Serbia,-0.5
+Sierra Leone,75.0
+Singapore,125.5
+Slovakia,48.2
+Slovenia,33.2
+Solomon Islands,50.0
+Somalia,83.5
+South Africa,70.5
+South Sudan,54.6
+Spain,39.5
+Sri Lanka,36.0
+Sudan,70.9
+Suriname,50.0
+Sweden,34.4
+Switzerland,47.8
+Syrian Arab Republic,131.0
+TÃ¼rkiye,68.5
+Tajikistan,92.9
+"Tanzania, United Republic of",105.9
+Thailand,84.6
+The Netherlands,36.7
+The Republic of the Gambia,100.0
+Timor-Leste,50.0
+Togo,83.2
+Trinidad and Tobago,57.9
+Tunisia,67.0
+Turkmenistan,83.3
+Uganda,89.6
+Ukraine,12.8
+United Arab Emirates,125.9
+United Kingdom,35.7
+United States of America,55.4
+Uruguay,23.9
+Uzbekistan,76.8
+Vanuatu,0.0
+Venezuela,69.5
+Viet Nam,67.4
+Yemen,98.3
+Zambia,111.1
+Zimbabwe,81.1
